@@ -8,13 +8,13 @@ jQuery(document).ready(function() {
      *
      * Handle functionalities to GoogleMaps API version 3
      *
-     */
+     */
     var map_options = {
         'zoom':14,
         'scrollwheel':false,
         'draggableCursor':'default',
         'center': new google.maps.LatLng(-23.56367, -46.65372),
-        'mapTypeId': google.maps.MapTypeId.ROADMAP
+        'mapTypeId': google.maps.MapTypeId.HYBRID
         }
     googlemap = new google.maps.Map(document.getElementById("mpv_canvas"), map_options);
     var googlemarker = null;
